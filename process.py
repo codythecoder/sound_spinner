@@ -1,16 +1,9 @@
 from scipy.io import wavfile
 import os
 from src.misc import mkdirpath
+from src.consts import *
 
-data_folder = r'./data'
 filename = 'hey.wav'
-
-min_limit = 8000
-bits = 16
-
-pre_spike = 0.08
-sample_size = 0.2
-
 
 
 name = filename.rsplit('.', 1)[0]
